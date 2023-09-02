@@ -17,13 +17,14 @@ chmod +x 0-1000000snapshot.bk.sh
 
 
 
-#start syncing with this snapshot  file 
+# Start Syncing
+After the installation, you can start syncing with the snapshot using the following command:
 
 ```shell
 mind server --restore 0-1000000snapshot.bk --data-dir node
 ```
 
-Keep Eyes on the Logs
+# Keep Eyes on the Logs
 If the syncing process started successfully, it will return logs like this:
 
 
