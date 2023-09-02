@@ -23,7 +23,7 @@ mind server --restore 0-1000000snapshot.bk --data-dir node
 
 ``if syncing process started successfully it will return logs like this``
 ```
-~/setpos# mind server --restore 0-1000000snapshot.bk --data-dir node --grpc-address 127.0.0.1:9638 --jsonrpc 0.0.0.0:8548
+~/setpos# mind server --restore 0-1000000snapshot.bk --data-dir node 
 
 2023-09-02T08:40:46.160-0700 [INFO]  polygon.server: Data dir: path=node
 2023-09-02T08:40:46.209-0700 [INFO]  polygon.blockchain: Current header: hash=0x3b8a7026c5d46c1208a2a4b4376c4d0912f3be4844cc90982554bb6cf2c8d3d0 number=0
