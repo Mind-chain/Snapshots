@@ -13,7 +13,11 @@ chmod +x 0-1000000snapshot.bk.sh
 ./0-1000000snapshot.bk.sh
 ```
 ``It will take some time ``
-#start syncing with this snapshot 
+
+
+
+
+#start syncing with this snapshot  file 
 
 ```shell
 mind server --restore 0-1000000snapshot.bk --data-dir node
