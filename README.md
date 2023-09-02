@@ -22,6 +22,10 @@ mind server --restore 0-1000000snapshot.bk --data-dir node
 #keep eyes at the logs
 
 ``if syncing process started successfully it will return logs like this``
+
+
+
+
 ```
 ~/setpos# mind server --restore 0-1000000snapshot.bk --data-dir node 
 
